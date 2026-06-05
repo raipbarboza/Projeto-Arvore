@@ -1,0 +1,146 @@
+📄 Fichamento: The Church-Turing Thesis
+
+Fonte: Stanford Encyclopedia of Philosophy
+
+Link: https://plato.stanford.edu/entries/church-turing/
+
+
+
+1\. Definição da Tese
+
+A Tese de Church-Turing afirma que a noção informal de função efetivamente calculável (aquilo que um ser humano pode calcular seguindo um método mecânico finito) coincide exatamente com as noções formais de:
+
+
+
+Função λ-definível (Cálculo Lambda de Alonzo Church)
+
+
+
+Função computável por Máquina de Turing (Alan Turing)
+
+
+
+Função recursiva geral (Gödel, Kleene)
+
+
+
+Em outras palavras: tudo o que é intuitivamente "computável" é computável por uma Máquina de Turing ou expressável no Cálculo Lambda.
+
+
+
+2\. Formulações de Church e Turing
+
+Proponente	Formulação Formal	Base Conceitual
+
+Alonzo Church (1936)	Funções efetivamente calculáveis são λ-definíveis	Abstração matemática (Cálculo Lambda)
+
+Alan Turing (1936)	Funções efetivamente calculáveis são computáveis por uma Máquina de Turing	Análise do trabalho de um "computador humano" (lápis, papel, regras)
+
+Ambas as formulações foram provadas equivalentes por Turing e Church.
+
+
+
+3\. Argumentos de Turing para a Tese
+
+Turing apresentou três tipos de argumento no seu artigo de 1936:
+
+
+
+Argumento da análise direta: Um "computador humano" opera sobre símbolos em uma fita, seguindo regras determinísticas, com estados mentais finitos. Toda essa operação pode ser simulada por uma Máquina de Turing.
+
+
+
+Argumento da equivalência: A noção de Turing é equivalente à de Church (λ-definibilidade) e à de Gödel (recursividade geral), o que reforça a robustez do conceito.
+
+
+
+Argumento da construção de máquinas universais: Turing mostrou que uma única Máquina de Turing (a Máquina Universal) pode simular qualquer outra Máquina de Turing. Isso é o precursor lógico do computador de programa armazenado.
+
+
+
+4\. Evidências a Favor da Tese
+
+Equivalência de formalismos: Todos os modelos formais de computabilidade propostos (Máquinas de Turing, Cálculo Lambda, funções recursivas, sistemas de Post, autômatos celulares, etc.) definem exatamente a mesma classe de funções.
+
+
+
+Nenhum contraexemplo conhecido: Nenhuma função considerada "efetivamente calculável" por matemáticos ficou de fora desses formalismos.
+
+
+
+Generalidade da análise de Turing: O argumento do "computador humano" captura qualquer procedimento mecânico que não dependa de "insight" ou criatividade.
+
+
+
+5\. Mal-Entendidos Comuns
+
+O verbete distingue cuidadosamente a Tese original de formulações posteriores, muitas vezes atribuídas erroneamente a Church ou Turing:
+
+
+
+Tese da Máquina Física (Physical Church-Turing Thesis): "Qualquer processo físico pode ser simulado por uma Máquina de Turing." Essa formulação não é de Church nem de Turing. É uma hipótese sobre a física, não sobre a matemática.
+
+
+
+Tese da Complexidade: "Toda função computável é eficientemente computável por uma Máquina de Turing." Também não faz parte da Tese original, que trata apenas do que é computável em princípio, não da eficiência.
+
+
+
+6\. Limites e Hipercomputação
+
+Problemas indecidíveis: O próprio Turing provou que existem problemas que nenhuma Máquina de Turing pode resolver (ex.: o Problema da Parada). A Tese afirma que esses problemas são absolutamente não-computáveis por qualquer método mecânico.
+
+
+
+Hipercomputação: Modelos teóricos que tentam ir além da Máquina de Turing (máquinas com tempo infinito, computação quântica com estados infinitos, etc.) são discutidos, mas nenhum deles tem realização física conhecida ou aceitação generalizada como modelo de computabilidade efetiva.
+
+
+
+7\. Questões Filosóficas Centrais Levantadas pelo Verbete
+
+O que significa "procedimento mecânico"? A Tese depende de uma noção intuitiva que não pode ser formalizada sem circularidade.
+
+
+
+A mente humana é uma Máquina de Turing? Se for, então o pensamento matemático é inteiramente mecanizável. Se não for, então há aspectos do pensamento que escapam à computação.
+
+
+
+A Tese é um teorema, um axioma ou uma definição? Como conecta uma noção informal a uma formal, não pode ser provada matematicamente. É uma espécie de "lei da computação", análoga às leis da termodinâmica.
+
+
+
+Qual o escopo da Tese? Ela se aplica apenas a funções sobre números naturais? Sobre strings? Sobre qualquer domínio discreto?
+
+
+
+8\. Conexão com a Programação Funcional
+
+O Cálculo Lambda de Church é a base teórica direta das linguagens funcionais (Haskell, Lisp, Clojure).
+
+
+
+A equivalência entre Lambda e Máquina de Turing implica que tudo o que pode ser programado em estilo imperativo pode ser programado em estilo funcional, e vice-versa.
+
+
+
+A diferença entre os paradigmas não está no poder computacional, mas na expressividade, composicionalidade e proximidade com o raciocínio matemático.
+
+
+
+9\. Glossário Rápido
+
+Termo	Definição
+
+Função efetivamente calculável	Função para a qual existe um método mecânico (algoritmo) que, dado um input, produz o output correto em tempo finito.
+
+Máquina de Turing	Modelo abstrato de computação com uma fita infinita, um cabeçote de leitura/escrita, um conjunto finito de estados e uma tabela de transições.
+
+Cálculo Lambda	Sistema formal baseado em abstração e aplicação de funções, criado por Church para capturar a noção de computabilidade.
+
+Tese de Church-Turing	Afirmação de que "efetivamente calculável" = "Turing-computável" = "λ-definível".
+
+Problema da Parada	Problema indecidível: não existe algoritmo que determine, para qualquer programa, se ele vai parar ou rodar indefinidamente.
+
+Hipercomputação	Tentativa teórica de definir modelos de computação que ultrapassam a capacidade das Máquinas de Turing.
+
