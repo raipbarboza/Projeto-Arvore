@@ -64,10 +64,10 @@ A equivalência entre Lambda e Máquina de Turing implica que tudo o que pode se
 A diferença entre os paradigmas não está no poder computacional, mas na expressividade, composicionalidade e proximidade com o raciocínio matemático.
 
 9. Glossário Rápido
-Termo	Definição
-Função efetivamente calculável	Função para a qual existe um método mecânico (algoritmo) que, dado um input, produz o output correto em tempo finito.
-Máquina de Turing	Modelo abstrato de computação com uma fita infinita, um cabeçote de leitura/escrita, um conjunto finito de estados e uma tabela de transições.
-Cálculo Lambda	Sistema formal baseado em abstração e aplicação de funções, criado por Church para capturar a noção de computabilidade.
-Tese de Church-Turing	Afirmação de que "efetivamente calculável" = "Turing-computável" = "λ-definível".
-Problema da Parada	Problema indecidível: não existe algoritmo que determine, para qualquer programa, se ele vai parar ou rodar indefinidamente.
-Hipercomputação	Tentativa teórica de definir modelos de computação que ultrapassam a capacidade das Máquinas de Turing.
+Termo	| Definição
+Função efetivamente calculável:	Função para a qual existe um método mecânico (algoritmo) que, dado um input, produz o output correto em tempo finito.
+Máquina de Turing:	Modelo abstrato de computação com uma fita infinita, um cabeçote de leitura/escrita, um conjunto finito de estados e uma tabela de transições.
+Cálculo Lambda:	Sistema formal baseado em abstração e aplicação de funções, criado por Church para capturar a noção de computabilidade.
+Tese de Church-Turing:	Afirmação de que "efetivamente calculável" = "Turing-computável" = "λ-definível".
+Problema da Parada:	Problema indecidível: não existe algoritmo que determine, para qualquer programa, se ele vai parar ou rodar indefinidamente.
+Hipercomputação:	Tentativa teórica de definir modelos de computação que ultrapassam a capacidade das Máquinas de Turing.
